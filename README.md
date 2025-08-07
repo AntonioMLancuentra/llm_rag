@@ -27,3 +27,10 @@ Simple but Descriptive
 - Retrieval-Augmented Generation system using only local models and storage  
 - Includes firewall protection and user isolation features  
 - Processes both local documents and web content for knowledge base creation  
+
+Project Directory Structure
+llm_rag/
+├── data/           # Your local files
+├── knowledge_base/ # Vector database storage
+├── config/         # Configuration files
+└── logs/           # Security logs
